@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: suraj-gt
   # We run the commands on local; 
   connection: local
   # Enable sudo
