@@ -1,12 +1,12 @@
 ---
-- hosts: suraj-gt
+- hosts: localhost
   # We run the commands on local; 
   connection: local
   # Enable sudo
   become: true
 
   tasks:
-  - name: Install htop
+  - name: install htop
     package:
       name: htop
       
