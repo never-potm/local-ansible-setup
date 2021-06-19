@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  # We run the commands on local; 
+  connection: local
+  # Enable sudo
+  become: true
+
+  tasks:
+  - name: Install htop
+    package:
+      name: htop
+      
+
